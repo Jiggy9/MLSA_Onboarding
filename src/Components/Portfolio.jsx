@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/bg3.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "third one background photo";
 
 /**
  * Project list
@@ -31,15 +31,15 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "My Blog Website",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
+      "This is my blog website where I write my experience and Learnings.",
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Calculator website",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+      "I created a calculator and implemented it using video",
     url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
@@ -49,10 +49,10 @@ const projectList = [
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "My Flutter assistant voice app",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "I created a flutter project where questions can be taken as speech and then answer will be converted into text to speed again.",
+    url: "https://github.com/Jiggy9/flutter-voice-assistant-app",
   },
 ];
 
